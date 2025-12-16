@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ff9800;
+    color: white;
+    padding: 20px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.item {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.pedido a {
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 20px;
+}
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    color: #ff9800;
+}
+
+.item h3 {
+    margin: 5px 0;
+}
+
+.item p {
+    font-weight: bold;
+    color: green;
+}
+.item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.info {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.btn-pedir {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-pedir:hover {
+    background-color: #1ebe5d;
+}
